@@ -30,7 +30,7 @@ public class JobConfiguration {
     private StepBuilderFactory stepBuilderFactory;
 
     @Bean
-    public Job hellowJob () {  //哈哈
+    public Job hellowJob () {  //hhh
         return jobBuilderFactory.get("hellowJob")
                 .start(step1())
                 .build();
